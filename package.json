@@ -4,7 +4,7 @@
   "description": "Twitterbot",
   "main": "index.js",
   "scripts": {
-    "start": 'node index.js'
+    "start": "node index.js"
   },
   "keywords": [
     "twitter",
@@ -14,7 +14,9 @@
   "author": "Gh0st",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^6.0.0",
     "eslint": "^4.19.1",
+    "redis": "^2.8.0",
     "twit": "^2.2.10"
   }
 }
